@@ -2,7 +2,7 @@ import socket
 import select
 import sys
 
-Host="172.16.224.235"
+Host="localhost"
 Port=5000
 
 s=socket.socket(socket.AF_INET,socket.SOCK_STREAM)
